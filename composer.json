@@ -1,0 +1,24 @@
+{
+  "name": "virid/collection",
+  "description": "The collection interface and kit of implementations",
+  "type": "library",
+  "keywords": ["collection", "iterator", "array", "php"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vitaly Agapov",
+      "email": "dev@agapov.pw"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Virid\\Collection\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.5"
+  }
+}
