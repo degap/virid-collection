@@ -5,6 +5,21 @@
 
 The collection interface and implementation based on array
  
+## Installation
+Add lines to composer.json
+```json
+...
+
+"require": {
+    "virid/collection": "~1.0"
+}
+...
+```
+or
+use composer cli
+```bash
+composer require virid/collection
+```
 ## Usage
 
 Example with existed implementation
